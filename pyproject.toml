@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survey-levels"
+version = "0.1.0"
+description = "Differential leveling engine for surveying: HI reduction, loop misclosure, adjustment"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "crieck2010" }]
+keywords = ["surveying", "leveling", "differential-levels", "misclosure"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/crieck2010/survey-levels"
+
+[tool.setuptools.packages.find]
+where = ["src"]
