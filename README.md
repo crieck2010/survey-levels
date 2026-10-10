@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **Consolidated into [SurveySuite](https://github.com/crieck2010/survey-suite)**  
+> This engine has been consolidated into the unified [SurveySuite monorepo](https://github.com/crieck2010/survey-suite). Active development, bug fixes, releases, and unified testing now live in `survey-suite`. This repository is preserved as an archive.
+
 # survey-levels
 
 A pure-Python, dependency-free **differential leveling engine** for surveying: height-of-instrument reduction of level notes, arithmetic page checks, loop misclosure against standard allowable errors, and proportional distribution of corrections.
@@ -122,3 +126,4 @@ Part of the surveying + remote sensing suite alongside `survey-cogo` (coordinate
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
